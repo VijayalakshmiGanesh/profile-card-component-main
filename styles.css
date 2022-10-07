@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    background-image: url(images/bg-pattern-top.svg);
+    background-position: left bottom;
+    background-size: auto;
+    background-color: var(--Dark-cyan);
+    background-repeat: no-repeat;
+}
+
+.profile-card {
+    height: 22rem;
+    width: 20rem;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    background-image: url(images/bg-pattern-card.svg);
+    background-repeat: repeat-x;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+
+
+.dp-pic {
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 5rem;
+    position: absolute;
+    margin: auto;
+    border: 0.4rem solid white;
+    /* padding: 3px; */
+}
+
+.contents {
+    padding: 7rem 0 0;
+    margin: 5rem 0 0;
+    text-align: center;
+}
+
+#name,
+.stats {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--Very-dark-desaturated-blue);
+}
+
+p,
+span {
+    font-weight: 400;
+}
+
+span {
+    color: var(--Dark-grayish-blue);
+}
+
+p {
+    font-size: 14px;
+    color: var(--Dark-gray);
+    margin: 0.5rem 0;
+}
+
+.statistics>div {
+    float: left;
+    margin: 0px;
+    width: 33%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
