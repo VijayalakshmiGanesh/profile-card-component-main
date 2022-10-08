@@ -46,7 +46,7 @@ body {
     background-color: var(--Dark-cyan);
     background-repeat: no-repeat, no-repeat;
 }
-
+```
 
 ### Useful resources
 
